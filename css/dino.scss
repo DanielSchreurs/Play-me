@@ -1,0 +1,72 @@
+@import "./compass/reset";
+$muColor: rgb(229, 109, 38);
+$myTextGray:#fffff;
+
+.color{
+  color: $muColor;
+}
+html{
+  font: 1.25em/1.5 "Avenir","Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-size: cover;
+  font-weight: 100;
+  background: url("./img/texbackground.gif");
+}
+.header-one__color{
+  font-size: 1.3em;
+  color: $muColor;
+}
+.header-one{
+
+  font-size: 3em;
+  text-align: center;
+  margin: 1em 0;
+  font-weight: bold;
+
+}
+canvas{
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 10%;
+  display: block;
+  background: url("./img/canvasbcg.png");
+}
+.meta-box{
+  min-height: 57px;
+  width: 600px;
+  margin:0 auto;
+  //background:url("./img/topbtn.png") no-repeat 50% 0;
+  background-size: contain;
+
+}
+.meta-box__text{
+  margin-top: 1em;
+  font-size: 20px;
+}
+.meta-box__text--first{
+  float: left;
+  margin-left: 15px;
+}
+.meta-box__text__value{
+  color: $muColor;
+}
+.meta-box__text--second{
+  float: right;
+  margin-right: 15px;
+}
+.header-one--bold{
+  font-weight: bold;
+}
+.header-one--lighter{
+  font-weight: lighter;
+}
+.copy{
+  display: none;
+  position: absolute;
+  bottom: 1em;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 11px;
+}
+::-moz-selection { background: transparent!important;; }
+::selection { background: transparent!important;; }
